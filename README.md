@@ -1,35 +1,36 @@
-# 📚 Gestión de Alumnos – Programación IV
+# 📚 Gestión Académica
 
-Este proyecto fue desarrollado como parte de la materia **Programación IV** y tiene como objetivo la **gestión de alumnos** dentro de la comisión de dicha asignatura.  
+Este sistema web es una solución integral diseñada para modernizar y facilitar la administración de instituciones educativas. Su objetivo principal es centralizar y automatizar el ciclo académico completo, ofreciendo un control detallado sobre el alumnado, el cuerpo docente, la oferta de carreras y el seguimiento del plan de estudios.
 
-Permite administrar de forma sencilla la información de los estudiantes, ofreciendo una base sólida para el manejo académico y la práctica de conceptos de programación avanzada.
+A través de una arquitectura sólida basada en roles y permisos, la plataforma brinda entornos seguros, dinámicos y personalizados según el tipo de usuario. Permite que el personal administrativo defina estructuras y requerimientos, que los docentes gestionen el dictado de sus asignaturas junto a las planillas de calificaciones, y que los estudiantes mantengan al día su situación académica, abarcando desde inscripciones a cursadas hasta la matriculación en mesas de exámenes finales.
 
 ---
 
-## 🚀 Funcionalidades principales
-- Registro de alumnos.
-- Edición y eliminación de datos de los estudiantes.
-- Listado de alumnos de la clase **Programación IV** de ambas comisiones.
-- Organización de la información en una interfaz clara y simple.
-- Gestión centralizada para facilitar la práctica académica.
+## 🚀 Funcionalidades
+
+### Actuales
+- Registro y autenticación de usuarios (Alumnos, Profesores, Administradores).
+- Gestión de carreras y materias.
+- Edición y eliminación de datos de los usuarios.
+- Organización de la información en una interfaz clara y moderna.
+
+### Próximas (En desarrollo)
+- Inscripción a materias y mesas de exámenes.
+- Carga y visualización de notas.
+- Asignación de profesores a materias y comisiones.
+- Paneles de administración con permisos específicos por roles (Spatie Permission).
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
-- **Lenguaje/Framework**: Laravel, PHP, TailwindCSS.
-- **Base de datos**: MySQL.
-- **Herramientas adicionales**: Composer, Node.js, Vite, etc.
+- **Backend / Framework**: Laravel 11.x (PHP).
+- **Frontend**: Plantillas Blade, TailwindCSS.
+- **Roles y Permisos**: Spatie Laravel-permission.
+- **Base de Datos**: MySQL.
+- **Herramientas de Desarrollo**: Composer, Node.js, Vite.
 
 ---
 
-## 👥 Integrantes del equipo
+## 👥 Autores del proyecto
 - **Gavilán, Agostina Anabel**
 - **Otazo, Julián Ezequiel**
-
----
-
-## 📌 Conclusión
-El proyecto **Gestión de Alumnos** permitió integrar los conocimientos adquiridos en la materia **Programación IV**, brindando una experiencia práctica en el desarrollo de aplicaciones web con frameworks modernos.  
-Asimismo, constituyó una oportunidad para fortalecer competencias en el trabajo en equipo y en la aplicación de metodologías de desarrollo de software.  
-
----
